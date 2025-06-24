@@ -22,15 +22,15 @@ const Index = () => {
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-8">
-              <SoundWave />
-            </div>
-            
             <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 animate-fade-in">
               STOP aux <span className="text-accent"><StatCounter end={47} /></span> Interruptions 
               <br />Quotidiennes qui 
               <span className="text-gradient"> Sabotent</span> Vos Consultations
             </h1>
+            
+            <div className="mb-8">
+              <SoundWave />
+            </div>
             
             <h2 className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in">
               ZenDent transforme chaque appel en opportunité : qualification IA, réponses 24/7, zéro interruption. 
