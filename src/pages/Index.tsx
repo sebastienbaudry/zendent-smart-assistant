@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SoundWave } from "@/components/SoundWave";
@@ -17,7 +16,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden pt-12">
         <WaveAnimation />
         
         <div className="container mx-auto px-6 relative z-10">
@@ -28,7 +27,7 @@ const Index = () => {
               <span className="text-gradient"> Sabotent</span> Vos Consultations
             </h1>
             
-            <div className="mb-8">
+            <div className="mb-8 h-16 flex items-center justify-center">
               <SoundWave />
             </div>
             
