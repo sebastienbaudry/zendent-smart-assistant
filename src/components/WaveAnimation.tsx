@@ -17,11 +17,6 @@ export const WaveAnimation = () => {
             }}
           />
         ))}
-        <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-            <div className="w-3 h-3 bg-primary rounded-full animate-pulse" />
-          </div>
-        </div>
       </div>
     </div>
   );
