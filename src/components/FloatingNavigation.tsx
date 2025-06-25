@@ -67,7 +67,11 @@ export const FloatingNavigation = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <span className="text-xl sm:text-2xl font-bold text-primary">ZenDent</span>
+              <img 
+                src="/lovable-uploads/66928954-2604-4ae1-ac7a-8250b513af18.png" 
+                alt="ZenDent Logo" 
+                className="h-8 w-auto"
+              />
             </div>
 
             {/* Navigation Desktop */}

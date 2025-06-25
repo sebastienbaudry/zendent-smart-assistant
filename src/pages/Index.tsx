@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SoundWave } from "@/components/SoundWave";
@@ -20,7 +19,7 @@ const Index = () => {
       <FloatingNavigation />
       
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden pt-16 sm:pt-20">
+      <section id="hero" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden pt-16 sm:pt-20 md:pt-0">
         <WaveAnimation />
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -58,7 +57,7 @@ const Index = () => {
             <div className="space-y-4 px-4">
               <Button 
                 size="lg" 
-                className="bg-accent hover:bg-accent/90 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-full shadow-2xl hover:shadow-accent/25 transition-all duration-300 animate-pulse-slow w-full sm:w-auto"
+                className="bg-accent hover:bg-accent/90 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-full shadow-2xl hover:shadow-accent/25 transition-all duration-300 w-full sm:w-auto"
                 onClick={() => scrollToSection('pricing')}
               >
                 OUI, Je Veux Mes 100 Minutes Gratuites
