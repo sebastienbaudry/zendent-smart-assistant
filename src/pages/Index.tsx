@@ -190,7 +190,7 @@ const Index = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 sm:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6 leading-tight">
-                Opérationnel en <span className="text-accent">15 Minutes Chrono</span>
+                Opérationnel <span className="text-accent">rapidement et facilement</span>
               </h2>
             </div>
             
@@ -199,7 +199,7 @@ const Index = () => {
                 number="1"
                 icon="⚙️"
                 title="Configuration"
-                description="Paramétrage personnalisé de la FAQ du cabinet"
+                description="Personnalisation du workflow vocal pour votre cabinet"
               />
               
               <ProcessStep
@@ -215,16 +215,6 @@ const Index = () => {
                 title="Pilotage"
                 description="Suivi dashboard"
               />
-            </div>
-            
-            <div className="text-center mt-8 sm:mt-12">
-              <Card className="inline-block">
-                <CardContent className="p-4 sm:p-6">
-                  <p className="text-sm sm:text-base text-gray-700">
-                    <strong>Support technique inclus</strong> + vidéo démo intégrée
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
@@ -269,7 +259,7 @@ const Index = () => {
                   "Intégrations logiciels"
                 ]}
                 isPopular
-                ctaText="Choisir Performance"
+                ctaText="Commencer l'essai gratuit"
               />
               
               <PricingCard
@@ -284,7 +274,7 @@ const Index = () => {
                   "Formation équipe incluse",
                   "API personnalisée"
                 ]}
-                ctaText="Contactez-nous"
+                ctaText="Commencer l'essai gratuit"
               />
             </div>
             
