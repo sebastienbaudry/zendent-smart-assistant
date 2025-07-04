@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from '@/components/ui/navigation-menu';
 import { Button } from '@/components/ui/button';
@@ -70,7 +69,7 @@ export const FloatingNavigation = () => {
               <img 
                 src="/lovable-uploads/66928954-2604-4ae1-ac7a-8250b513af18.png" 
                 alt="ZenDent Logo" 
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
             </div>
 

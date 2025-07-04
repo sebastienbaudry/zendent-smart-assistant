@@ -126,7 +126,7 @@ const Index = () => {
                   <ul className="space-y-2 text-sm sm:text-base text-gray-700">
                     <li>0 interruption pendant les soins</li>
                     <li>Résumés structurés et priorisés</li>
-                    <li>Sérénité totale, contrôle parfait</li>
+                    <li>Une organisation de votre journée mieux maîtrisée</li>
                     <li>Les patients ne sont plus frustrés et sont rassurés</li>
                   </ul>
                 </div>
