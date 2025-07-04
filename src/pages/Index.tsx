@@ -289,7 +289,7 @@ const Index = () => {
             </div>
             
             <div className="bg-white p-6 sm:p-8 rounded-xl">
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 text-center">
+              <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 text-center">
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">Flexibilité totale</h4>
                   <p className="text-sm sm:text-base text-gray-600">Dépassement : 0,49€/minute</p>
@@ -297,10 +297,6 @@ const Index = () => {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">Économies réelles</h4>
                   <p className="text-sm sm:text-base text-gray-600">Coût secrétariat traditionnel : 2 500€/mois</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-800 mb-2">Sans risque</h4>
-                  <p className="text-sm sm:text-base text-gray-600">Satisfait ou remboursé 30 jours</p>
                 </div>
               </div>
             </div>
