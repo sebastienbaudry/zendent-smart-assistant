@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SoundWave } from "@/components/SoundWave";
@@ -25,7 +26,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-800 mb-6 animate-fade-in leading-tight">
-              STOP aux <span className="text-accent"><StatCounter end={47} /></span> Interruptions 
+              STOP aux Interruptions 
               <br />Quotidiennes qui 
               <span className="text-gradient"> Sabotent</span> Vos Consultations
             </h1>
@@ -58,6 +59,26 @@ const Index = () => {
               >
                 Offre d'essai 100 Minutes Gratuites
               </Button>
+            </div>
+
+            {/* Application Screenshots */}
+            <div className="mt-12 sm:mt-16 grid md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
+              <div className="bg-white p-4 rounded-lg shadow-lg">
+                <img 
+                  src="/lovable-uploads/2d4ba60c-c869-4e93-a54e-450d14296e9d.png" 
+                  alt="Interface ZenDent - Gestion des appels"
+                  className="w-full h-auto rounded-lg"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Gestion intelligente des appels</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-lg">
+                <img 
+                  src="/lovable-uploads/4968d7ab-6aa5-44dc-9c5e-6c35e9013b11.png" 
+                  alt="Interface ZenDent - Qualification des urgences"
+                  className="w-full h-auto rounded-lg"
+                />
+                <p className="text-sm text-gray-600 mt-2 text-center">Qualification automatique des urgences</p>
+              </div>
             </div>
           </div>
         </div>
@@ -152,7 +173,6 @@ const Index = () => {
                 icon="⏰"
                 title="Récupérez 2h/jour de productivité"
                 description="Fin des interruptions pendant les soins. Focus total sur les patients présents."
-                metric="Augmentation de 35% de la satisfaction patient"
               />
               
               <BenefitCard
@@ -311,21 +331,6 @@ const Index = () => {
             >
               Réserver Mon Essai Gratuit
             </Button>
-            
-            <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 opacity-80 text-sm sm:text-base">
-              <div className="flex items-center">
-                <Star className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
-                <span>Certifié RGPD</span>
-              </div>
-              <div className="flex items-center">
-                <Users className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
-                <span>500+ cabinets partenaires</span>
-              </div>
-              <div className="flex items-center">
-                <Clock className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
-                <span>Support 7j/7</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>
