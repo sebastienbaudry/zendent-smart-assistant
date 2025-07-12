@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SoundWave } from "@/components/SoundWave";
@@ -240,9 +239,9 @@ const Index = () => {
                 pricePerMinute="0,318€/minute"
                 features={[
                   "Parfait pour cabinet solo",
-                  "Configuration personnalisée",
+                  "Base de connaissances personnalisée",
                   "Support par email",
-                  "Dashboard en temps réel"
+                  "Affichage temps réel"
                 ]}
                 ctaText="Commencer l'essai gratuit"
               />
@@ -255,9 +254,8 @@ const Index = () => {
                 features={[
                   "Idéal pour cabinets actifs",
                   "IA avancée qualification",
-                  "Support prioritaire",
-                  "Analytics détaillées",
-                  "Intégrations logiciels"
+                  "Support email et téléphonique",
+                  "Modèle de voix hautement réaliste"
                 ]}
                 isPopular
                 ctaText="Commencer l'essai gratuit"
@@ -271,9 +269,9 @@ const Index = () => {
                 features={[
                   "Parfait pour centres/groupes",
                   "Multi-praticiens",
-                  "Support dédié",
-                  "Formation équipe incluse",
-                  "API personnalisée"
+                  "Support prioritaire",
+                  "Modèle d'IA le plus performant",
+                  "Dialogues types customisés possibles"
                 ]}
                 ctaText="Commencer l'essai gratuit"
               />
