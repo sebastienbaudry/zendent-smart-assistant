@@ -8,6 +8,7 @@ import { PricingCard } from "@/components/PricingCard";
 import { BenefitCard } from "@/components/BenefitCard";
 import { ProcessStep } from "@/components/ProcessStep";
 import { FloatingNavigation } from "@/components/FloatingNavigation";
+import { openCalendlyPopup } from "@/utils/calendly";
 import { ArrowDown, Check, Clock, Users, Phone, Star } from "lucide-react";
 
 const Index = () => {
@@ -55,7 +56,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-accent hover:bg-accent/90 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-full shadow-2xl hover:shadow-accent/25 transition-all duration-300 w-full sm:w-auto"
-                onClick={() => scrollToSection('pricing')}
+                onClick={openCalendlyPopup}
               >
                 Offre d'essai 100 Minutes Gratuites
               </Button>
@@ -264,6 +265,7 @@ const Index = () => {
                   "Affichage temps réel"
                 ]}
                 ctaText="Commencer l'essai gratuit"
+                onCtaClick={openCalendlyPopup}
               />
               
               <PricingCard
@@ -279,6 +281,7 @@ const Index = () => {
                 ]}
                 isPopular
                 ctaText="Commencer l'essai gratuit"
+                onCtaClick={openCalendlyPopup}
               />
               
               <PricingCard
@@ -294,6 +297,7 @@ const Index = () => {
                   "Dialogues types customisés possibles"
                 ]}
                 ctaText="Commencer l'essai gratuit"
+                onCtaClick={openCalendlyPopup}
               />
             </div>
             
@@ -328,6 +332,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-accent hover:bg-accent/90 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-full shadow-2xl hover:shadow-accent/25 transition-all duration-300 mb-6 sm:mb-8 w-full sm:w-auto"
+              onClick={openCalendlyPopup}
             >
               Réserver Mon Essai Gratuit
             </Button>

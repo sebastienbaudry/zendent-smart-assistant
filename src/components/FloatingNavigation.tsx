@@ -1,7 +1,9 @@
+
 import { useState, useEffect } from 'react';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from '@/components/ui/navigation-menu';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { openCalendlyPopup } from '@/utils/calendly';
 
 interface NavItem {
   id: string;
@@ -98,7 +100,7 @@ export const FloatingNavigation = () => {
             {/* CTA Desktop */}
             <div className="hidden md:block">
               <Button
-                onClick={() => scrollToSection('pricing')}
+                onClick={openCalendlyPopup}
                 className="bg-accent hover:bg-accent/90 text-white px-4 py-2 text-sm"
               >
                 Essai Gratuit
@@ -138,7 +140,7 @@ export const FloatingNavigation = () => {
               ))}
               <div className="pt-2">
                 <Button
-                  onClick={() => scrollToSection('pricing')}
+                  onClick={openCalendlyPopup}
                   className="w-full bg-accent hover:bg-accent/90 text-white"
                 >
                   Essai Gratuit

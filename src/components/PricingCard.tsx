@@ -11,6 +11,7 @@ interface PricingCardProps {
   features: string[];
   isPopular?: boolean;
   ctaText: string;
+  onCtaClick?: () => void;
 }
 
 export const PricingCard = ({ 
@@ -20,7 +21,8 @@ export const PricingCard = ({
   pricePerMinute, 
   features, 
   isPopular = false,
-  ctaText 
+  ctaText,
+  onCtaClick
 }: PricingCardProps) => {
   return (
     <Card className={`relative ${isPopular ? 'border-accent border-2 scale-105' : 'border-gray-200'} hover:shadow-xl transition-all duration-300`}>
@@ -54,6 +56,7 @@ export const PricingCard = ({
         
         <Button 
           className={`w-full ${isPopular ? 'bg-accent hover:bg-accent/90 text-white' : 'bg-primary hover:bg-primary/90 text-white'} font-semibold py-3`}
+          onClick={onCtaClick}
         >
           {ctaText}
         </Button>
