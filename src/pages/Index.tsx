@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SoundWave } from "@/components/SoundWave";
@@ -248,9 +249,9 @@ const Index = () => {
               
               <PricingCard
                 title="PERFORMANCE"
-                price="379€"
+                price="459€"
                 minutes="1 500 minutes"
-                pricePerMinute="0,253€/minute"
+                pricePerMinute="0,306€/minute"
                 features={[
                   "Idéal pour cabinets actifs",
                   "IA avancée qualification",
@@ -264,9 +265,9 @@ const Index = () => {
               
               <PricingCard
                 title="EXPERT"
-                price="599€"
+                price="899€"
                 minutes="3 000 minutes"
-                pricePerMinute="0,200€/minute"
+                pricePerMinute="0,300€/minute"
                 features={[
                   "Parfait pour centres/groupes",
                   "Multi-praticiens",
