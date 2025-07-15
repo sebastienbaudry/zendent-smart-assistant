@@ -21,12 +21,12 @@ const Index = () => {
       <FloatingNavigation />
       
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden pt-16 sm:pt-20 md:pt-0">
+      <section id="hero" className="relative min-h-screen bg-gradient-hero flex items-center justify-center overflow-hidden pt-24 sm:pt-28 md:pt-32 lg:pt-24">
         <WaveAnimation />
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-800 mb-6 animate-fade-in leading-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 mb-6 animate-fade-in leading-tight">
               STOP aux Interruptions 
               <br />Quotidiennes qui 
               <span className="text-gradient"> Sabotent</span> Vos Consultations
